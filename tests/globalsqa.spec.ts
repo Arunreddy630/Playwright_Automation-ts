@@ -20,5 +20,5 @@ test.only('Handle child window and validate URL', async ({ page }) => {
 
   await expect(childPage).toHaveURL('https://www.globalsqa.com/demo-site/frames-and-windows/#');
 
-  await page.waitForTimeout(20000);
+  await page.waitForTimeout(30000);
 });
