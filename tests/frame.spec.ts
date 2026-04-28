@@ -13,7 +13,7 @@ test('frames',async({page})=>
 });
 
 
-test.only ('Iframes',async({page})=>
+test ('Iframes',async({page})=>
 {
   await page.on('dialog',async dialog=>
   {

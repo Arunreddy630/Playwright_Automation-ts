@@ -1,2 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "","7119","Iframes","chromium","2026-04-10","passed","2026-04-10","","frame.spec.ts","",""
+"","60019","login page functionality","chromium","2026-04-26","broken","2026-04-26","","LoginPage.spec.ts","",""

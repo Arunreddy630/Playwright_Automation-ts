@@ -36,7 +36,7 @@ test('DatePic Range Functionality',async({page})=>
 
 
 
-test.only('DatePic Range from popup Functionality',async({page})=>
+test('DatePic Range from popup Functionality',async({page})=>
 {
     await page.goto('https://testautomationpractice.blogspot.com/');
     await page.evaluate(()=>{window.scrollBy(0,2000)});

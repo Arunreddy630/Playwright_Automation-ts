@@ -29,7 +29,7 @@ test('CheckBox',async({page})=>
  }
 });
 
-test.only('CheckBox module',async({page})=>
+test('CheckBox module',async({page})=>
 {
  await page.goto('https://testautomationpractice.blogspot.com/');
  const SundayCheckbox=page.getByLabel('Sunday');

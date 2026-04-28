@@ -16,7 +16,8 @@ export default defineConfig({
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
-  forbidOnly: !!process.env.CI,
+  //forbidOnly: !!process.env.CI,
+  forbidOnly: false, //by arun
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
@@ -28,7 +29,7 @@ export default defineConfig({
              ['allure-playwright']], //chnaged by arun
      // allure generate ./allure-results -o ./allure-report  (create allure report by arun)
      //allure generate ./allure-results -o ./allure-report --clean (clean previos reports by arun)
-     //allure open ./allure-report  (view the report by arun)
+     //allure open ./allure-report  (whatview the report by arun)
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {

@@ -1,1 +1,1 @@
-[{"uid":"1f70b1e547f8a43b","name":"Iframes","time":{"start":1775802135198,"stop":1775802142317,"duration":7119},"status":"passed","severity":"normal"}]
+[{"uid":"241285f79e52cb23","name":"Iframes","time":{"start":1775802135198,"stop":1775802142317,"duration":7119},"status":"passed","severity":"normal"},{"uid":"585842bf607f486e","name":"login page functionality","time":{"start":1777183546342,"stop":1777183606361,"duration":60019},"status":"broken","severity":"normal"}]

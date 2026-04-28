@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('Handle child window and validate URL', async ({ page }) => {
+test('Handle child window and validate URL', async ({ page }) => {
 
   await page.goto('https://www.globalsqa.com/demo-site/frames-and-windows/#Open%20New%20Window');
 
