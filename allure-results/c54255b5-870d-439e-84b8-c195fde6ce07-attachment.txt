@@ -1,0 +1,6 @@
+Status: 200
+Response: {
+  "status": "success",
+  "data": "2",
+  "message": "Successfully! Record has been deleted"
+}
