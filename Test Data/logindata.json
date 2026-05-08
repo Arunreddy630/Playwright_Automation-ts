@@ -1,0 +1,17 @@
+[
+  {
+    "Username": "Admin",
+    "Password": "admin123",
+    "validity": "valid"
+  },
+  {
+    "Username": "wqgydgw",
+    "Password": "gfh342321",
+    "validity": "invalid"
+  },
+  {
+    "Username": "ghweyqwhe",
+    "Password": "36546dghjgd",
+    "validity": "invalid"
+  }
+]
